@@ -22,3 +22,13 @@ footer {
   padding: 10px;
   margin-top: 20px; 
 }
+
+.main-banner {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2em;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+}
