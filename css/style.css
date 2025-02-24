@@ -71,5 +71,13 @@ footer {
   padding: 10px;
   border-radius: 5px;
   border: none;
+  transition: 0.15s;
+}
 
+#contact-link:hover {
+  opacity: 0.7;
+}
+
+#contact-link:active {
+  opacity: 0.5;
 }
