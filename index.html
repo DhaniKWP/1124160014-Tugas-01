@@ -9,15 +9,22 @@
   </head>
   <body>
     <header>
-      <h1>My Portofolio</h1>
-    </header>
+      <div class="header-content">
+          <h1>My Portofolio</h1>
+          <nav>
+              <a href="#about">Home</a>
+              <a href="#myproject">About</a> 
+              <a href="#contact">Contact</a>
+          </nav>
+      </div>
+  </header>
 
     <main class="container">
       <section class="main-banner">
         Welcome to My Portofolio
       </section>
       
-      <section class="section">
+      <section id="about" class="section">
         <img id="foto-about" src="/assets/mukaaku.jpg" alt="FotoGanteng" />
         <h1>About Me</h1>
         <p>
@@ -26,23 +33,23 @@
         </p>
       </section>
 
-      <section class="section">
+      <section id="myproject" class="section">
         <h1>My Project</h1>
         <p>Project Saya</p>
         <ul>
-          <li type="sircle">Clay</li>
-          <li type="sircle">Clay</li>
-          <li type="sircle">Clay</li>
+          <li type="circle">Clay</li>
+          <li type="circle">Clay</li>
+          <li type="circle">Clay</li>
         </ul>
       </section>
 
-      <section class="section-link">
+      <section id="contact" class="section-link">
         <h1>Contact Me</h1>
         <a id="contact-link" href="https://github.com/DhaniKWP" target="_blank">GitHub</a>
         <a id="contact-link" href="mailto:dhanikusuma256@gmail.com" target="_blank">Email</a>
         <a id="contact-link" href="https://www.instagram.com/dhanikwp/" target="_blank">Instagram</a>
       </section>
     </main>
-    <footer>&copy; 2025 My Portfolio. All Rights Reserved.</footer>
+    <footer class="footer-content">&copy; 2025 My Portfolio. All Rights Reserved.</footer>
   </body>
 </html>
