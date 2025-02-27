@@ -3,6 +3,7 @@
   padding: 0;
   font-family: "Times New Roman", Times, serif;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -151,3 +152,4 @@ footer {
   padding: 0 20px;
   text-align: center;
 }
+
